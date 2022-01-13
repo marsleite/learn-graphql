@@ -1,9 +1,9 @@
 import { graphqlHTTP } from "express-graphql";
 
-const express = require('express');
+import express from 'express';
 
-const graphqlSchema = require('./graphql/schema');
-const graphiqlResolver = require('./graphql/resolvers');
+import graphqlSchema from './graphql/schema';
+import graphiqlResolver from './graphql/resolvers';
 const app = express();
 
 const PORT = 5000;
